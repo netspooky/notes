@@ -5,6 +5,10 @@ Find duplicate files
 ```
 find . ! -empty -type f -exec md5sum {} + | sort | uniq -w32 -dD
 ```
+Extract all zip files in current directory
+```
+find . -name "*.zip" -exec mkdir {}_ \; -exec mv {} {}_/ \; -exec 7z x {}_/{} -o{}_/ \;
+```
 generate uuid
 ```
 cat /proc/sys/kernel/random/uuid
