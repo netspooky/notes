@@ -22,7 +22,7 @@ UPDATE users SET password_hash='NEWHASH' WHERE name='@user:your.host';
 ## Clear media cache
 Use the [admin API](https://matrix-org.github.io/synapse/latest/admin_api/media_admin_api.html) for this. You can call this API from localhost on your machine.
 
-You will also need an admin user and the auth token for this user. You can grab this from the client supposedly, but I just use the synapse_tokenstore.py script in this folder to log in and create a new session just for this.
+You will also need an admin user and the auth token for this user. You can grab this from the client supposedly, but I just use the matrix_tokenstore.py script in this folder to log in and create a new session just for this.
 
 First, grab a timestamp that you want to clear from. Syanpse expects a unix timestamp with millisecond precision.
 ```
