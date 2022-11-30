@@ -22,13 +22,13 @@ LKBUILDVERS="20221129.1"
 # --------------------------------------------------------------------------------------------------
 # .: Script Setup :.
 #
-# - Create a directory called ~/kernel/
+# - Create a directory called ~/kernel/ and cd into it
 # - Grab create-image.sh from syzkaller, this is used to create a debian image
 #   $ wget https://github.com/google/syzkaller/blob/master/tools/create-image.sh
 #   - PROTIP: Change the hostname variable in this script to whatever you want. Default is "syzkaller"
-# - Clone your kernel image
+# - Clone your kernel image and cd into it
 #   $ git clone --branch v5.15 git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
-# - Copy this to the root of your linux kernel source
+# - Copy this script to the root of your linux kernel source
 # - Update the config options below
 # - Run this script
 #
