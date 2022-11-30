@@ -37,7 +37,7 @@ LKBUILDVERS="20221129.1"
 #
 # - The kernel will be booted to the kernel. Log in with the username root and default creds.
 # - The create-image script will generate keys for you
-# - Put this into your ~/.ssh/config file, change the IdentityFile to wherever your debimg folder is.
+# - Put this into your ~/.ssh/config file, change the IdentityFile to wherever your kernel's debimg folder is.
 # Host qemu
 #   HostName localhost
 #   User root
