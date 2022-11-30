@@ -69,6 +69,7 @@ LKBUILDVERS="20221129.1"
 #   (gdb) lx-symbols
 #   (gdb) target remote :1234
 # - Now you are debugging the kernel!
+# - More info here: https://docs.kernel.org/dev-tools/gdb-kernel-debugging.html
 # 
 # --------------------------------------------------------------------------------------------------
 
