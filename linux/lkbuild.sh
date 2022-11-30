@@ -77,6 +77,7 @@ KERNEL="/home/user/kernel/linux_5.15" # This is where the kernel was cloned
 IMAGE="$KERNEL/debimg" # This is where the debian image will live.
 
 # Put all the kconfig options in here
+# For more info on these check out this site: https://cateee.net/lkddb/web-lkddb/DEBUG_KMEMLEAK.html
 kConf=$(cat <<-END
 CONFIG_CONFIGFS_FS=y
 CONFIG_DEBUG_FS=y
