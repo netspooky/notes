@@ -22,7 +22,7 @@ Pop off the housing to reveal that it's just a test strip being read by some cir
 
 On the plus side, you do get a nice Nordic Semiconductor nRF52810 and test pads to reprogram it if you want to play around with BLE. It's got an ARM Cortex M4 and a 2.4 GHz transciever. It's a shame it's meant to be thrown away, you can have a lot of fun with this.
 
-![image](https://user-images.githubusercontent.com/26436276/209997744-46e6986e-1fa3-4b52-8201-66a4f8a379bd.png)
+![image](https://user-images.githubusercontent.com/26436276/209998039-b2232172-9008-402f-b7ba-3d211eb9e2ca.png)
 
 tl;dr - You can rip the test strip out instead of giving your data to some dodgy company, and you get a BLE SoC to mess around with. 
 
