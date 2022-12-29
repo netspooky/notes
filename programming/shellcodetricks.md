@@ -3,7 +3,7 @@
 From 2021-07-02
 
 * Solid reference https://www.felixcloutier.com/x86/index.html
-* Hex Calculator https://www.calculator.net/hex-calculator.html
+* Hex Calculator https://n0.lol/hc/
 * WinREPL for x86 Assembly https://github.com/zerosum0x0/WinREPL/releases/
 * Online Assembler https://defuse.ca/online-x86-assembler.htm
 
