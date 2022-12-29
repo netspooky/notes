@@ -36,7 +36,7 @@ For those wondering, here is the backside of the board. So many test pads! Also 
 
 ![image](https://user-images.githubusercontent.com/26436276/209997807-43323e00-c79b-468f-87b4-ed66146f2f82.png)
 
-Additionally, [black0wl](https://twitter.com/b1ack0wl/status/1417991582444310528) found that there's some malware on the company's website that probably came from a vulnerable wordpress plugin.
+Additionally, [black0wl](https://twitter.com/b1ack0wl/status/1417991582444310528) found that there's some funky stuff going on on the company's website that probably came from a vulnerable wordpress plugin.
 
 ![image](https://user-images.githubusercontent.com/26436276/209997902-d2dae350-aabf-4e16-bd8a-95780ae315bc.png)
 
