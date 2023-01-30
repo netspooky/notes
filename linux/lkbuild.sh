@@ -28,6 +28,8 @@ LKBUILDVERS="20221129.1"
 #   - PROTIP: Change the hostname variable in this script to whatever you want. Default is "syzkaller"
 # - Clone your kernel image and cd into it
 #   $ git clone --branch v5.15 git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+# - Alternatively you can download the tarball of your desired kernel version from the cdn.
+#   https://cdn.kernel.org/pub/linux/kernel/
 # - Copy this script to the root of your linux kernel source
 # - Update the config options below
 # - Run this script
