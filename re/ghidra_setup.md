@@ -1,7 +1,7 @@
 # Linux Ghidra Setup
 Updated 2023-02-01
 
-This worked on Ubuntu 22.04 with Ghidra 10.2.2
+This worked on Ubuntu 22.04 with Ghidra 10.2.2. It requires Java 17+
 
 ```
 sudo apt update
