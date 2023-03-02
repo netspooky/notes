@@ -90,5 +90,5 @@ tshark -r gameboy.pcapng -Y "bgblink.command == 104 and ip.src == 127.0.0.1" -T 
 ```
 tshark list all protocols in a given pcap
 ```
-tshark -r nasdaq.pcap -T fields -e frame.protocols | sort -u
+tshark -r capture.pcap -T fields -e frame.protocols | sort -u
 ```
