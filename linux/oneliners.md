@@ -88,4 +88,7 @@ tshark just grab some fields (in this case grabbing `bgblink.sync1_dv` with a fi
 ```
 tshark -r gameboy.pcapng -Y "bgblink.command == 104 and ip.src == 127.0.0.1" -T fields -e bgblink.sync1_dv
 ```
-
+tshark list all protocols in a given pcap
+```
+tshark -r nasdaq.pcap -T fields -e frame.protocols | sort -u
+```
