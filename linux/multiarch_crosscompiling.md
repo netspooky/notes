@@ -1,4 +1,4 @@
-Notes relevant to mutliarch and cross compiling 
+Notes relevant to multiarch and cross compiling 
 
 # Setting up 32bit ARM on aarch64
 
