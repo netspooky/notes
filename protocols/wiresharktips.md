@@ -55,3 +55,8 @@ local msg = getMsg:le_ustring()
 subtree:add(msg_f,  getMsg, msg)
 ```
 
+# Capturing Bluetooth
+Tested on Ubuntu 22.04
+- Enable Bluetooth in settings
+- Use the bluetooth-monitor interface
+- Use this filter to get advertising reports `bthci_evt.le_meta_subevent == 0x02`
