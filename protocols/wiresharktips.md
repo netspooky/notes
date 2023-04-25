@@ -2,6 +2,8 @@
 
 [https://gitlab.com/wireshark/wireshark/-/wikis/home](https://gitlab.com/wireshark/wireshark/-/wikis/home) The wireshark wiki
 
+Additional oneliners here: https://github.com/netspooky/notes/blob/main/linux/oneliners.md#tshark-and-wireshark
+
 ## Install wireshark from source
 This is how you do it on Linux at least
 ```
