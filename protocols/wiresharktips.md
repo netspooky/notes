@@ -60,3 +60,6 @@ Tested on Ubuntu 22.04
 - Enable Bluetooth in settings
 - Use the bluetooth-monitor interface
 - Use this filter to get advertising reports `bthci_evt.le_meta_subevent == 0x02`
+- Filter for one device `btcommon.eir_ad.entry.device_name == "My Device"`
+- Filter on MAC addrs `bthci_evt.bd_addr == 55:55:55:55:55:55`
+- See messages with manufacturer data `btcommon.eir_ad.entry.data`
